@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        docker { image: 'oven/bun:1' }
+        docker { image 'oven/bun:1' }
     }
     stages{
         stage("A"){
